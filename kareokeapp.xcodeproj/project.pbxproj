@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1948D6CBD5ACA843A57506 /* Pods_kareokeappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E68A9F7C7CB934399F6F /* Pods_kareokeappUITests.framework */; };
+		79F38CAAEC6CE66F09BDB1A1 /* Pods_kareokeappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C010AF3F3B099CD7E7FE7738 /* Pods_kareokeappTests.framework */; };
+		D22DDFDD1D124C27004E2978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DDFDC1D124C27004E2978 /* main.m */; };
+		D22DDFE01D124C27004E2978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DDFDF1D124C27004E2978 /* AppDelegate.m */; };
+		D22DDFE61D124C27004E2978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22DDFE41D124C27004E2978 /* Main.storyboard */; };
+		D22DDFE81D124C27004E2978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22DDFE71D124C27004E2978 /* Assets.xcassets */; };
+		D22DDFEB1D124C27004E2978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22DDFE91D124C27004E2978 /* LaunchScreen.storyboard */; };
+		D22DDFF61D124C27004E2978 /* kareokeappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DDFF51D124C27004E2978 /* kareokeappTests.m */; };
+		D22DE0011D124C27004E2978 /* kareokeappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0001D124C27004E2978 /* kareokeappUITests.m */; };
+		D22DE01B1D12569F004E2978 /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE01A1D12569F004E2978 /* MainTableController.m */; };
+		D22DE01E1D1259DA004E2978 /* SongMetaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE01D1D1259DA004E2978 /* SongMetaCell.m */; };
+		D22DE0251D1264BC004E2978 /* SongDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0241D1264BC004E2978 /* SongDetailController.m */; };
+		D22DE0291D1266C5004E2978 /* SongMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0281D1266C5004E2978 /* SongMeta.m */; };
+		D22DE02C1D1275F9004E2978 /* SongEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE02B1D1275F9004E2978 /* SongEditController.m */; };
+		D22DE03C1D127C07004E2978 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22DE03B1D127C07004E2978 /* DatePickerDialog.swift */; };
+		D22DE03E1D12920B004E2978 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22DE03D1D12920B004E2978 /* CoreData.framework */; };
+		D22DE0531D129E01004E2978 /* kareokeapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0511D129E01004E2978 /* kareokeapp.xcdatamodeld */; };
+		D22DE05B1D129E74004E2978 /* Song+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0581D129E74004E2978 /* Song+CoreDataProperties.m */; };
+		D22DE05C1D129E74004E2978 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE05A1D129E74004E2978 /* Song.m */; };
+		D22DE05E1D12A900004E2978 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22DE05D1D12A900004E2978 /* AVFoundation.framework */; };
+		D2B503001D12CC700037939D /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B502FF1D12CC700037939D /* error@2x.png */; };
+		D2B503051D12CCA80037939D /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B503041D12CCA80037939D /* TextFieldValidator.m */; };
+		D5FB19A23D6028DE6F735A78 /* Pods_kareokeapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FB8AC7073898E94B82FAAB /* Pods_kareokeapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D22DDFF21D124C27004E2978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22DDFD01D124C27004E2978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22DDFD71D124C27004E2978;
+			remoteInfo = kareokeapp;
+		};
+		D22DDFFD1D124C27004E2978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22DDFD01D124C27004E2978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22DDFD71D124C27004E2978;
+			remoteInfo = kareokeapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A2D379D160E09E8054B151 /* Pods-kareokeapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kareokeapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kareokeapp/Pods-kareokeapp.debug.xcconfig"; sourceTree = "<group>"; };
+		37315BC9A29F7581A94FDDDD /* Pods-kareokeapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kareokeapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-kareokeapp/Pods-kareokeapp.release.xcconfig"; sourceTree = "<group>"; };
+		3B887A1EF881C4F2DB9C0F8A /* Pods-kareokeappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kareokeappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kareokeappTests/Pods-kareokeappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61200CC75B51940F61BE93BB /* Pods-kareokeappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kareokeappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kareokeappTests/Pods-kareokeappTests.release.xcconfig"; sourceTree = "<group>"; };
+		6547E3D92530CC49FFE174EE /* Pods-kareokeappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kareokeappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kareokeappUITests/Pods-kareokeappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7216E68A9F7C7CB934399F6F /* Pods_kareokeappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kareokeappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FB8AC7073898E94B82FAAB /* Pods_kareokeapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kareokeapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84874C3CDCA53FC571485D2A /* Pods-kareokeappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kareokeappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kareokeappUITests/Pods-kareokeappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C010AF3F3B099CD7E7FE7738 /* Pods_kareokeappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kareokeappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22DDFD81D124C27004E2978 /* kareokeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kareokeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22DDFDC1D124C27004E2978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D22DDFDE1D124C27004E2978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D22DDFDF1D124C27004E2978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D22DDFE51D124C27004E2978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22DDFE71D124C27004E2978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22DDFEA1D124C27004E2978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22DDFEC1D124C27004E2978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22DDFF11D124C27004E2978 /* kareokeappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kareokeappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22DDFF51D124C27004E2978 /* kareokeappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kareokeappTests.m; sourceTree = "<group>"; };
+		D22DDFF71D124C27004E2978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22DDFFC1D124C27004E2978 /* kareokeappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kareokeappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22DE0001D124C27004E2978 /* kareokeappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kareokeappUITests.m; sourceTree = "<group>"; };
+		D22DE0021D124C27004E2978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22DE0191D12569F004E2978 /* MainTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableController.h; sourceTree = "<group>"; };
+		D22DE01A1D12569F004E2978 /* MainTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableController.m; sourceTree = "<group>"; };
+		D22DE01C1D1259DA004E2978 /* SongMetaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongMetaCell.h; sourceTree = "<group>"; };
+		D22DE01D1D1259DA004E2978 /* SongMetaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongMetaCell.m; sourceTree = "<group>"; };
+		D22DE0231D1264BC004E2978 /* SongDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailController.h; sourceTree = "<group>"; };
+		D22DE0241D1264BC004E2978 /* SongDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailController.m; sourceTree = "<group>"; };
+		D22DE0271D1266C5004E2978 /* SongMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongMeta.h; sourceTree = "<group>"; };
+		D22DE0281D1266C5004E2978 /* SongMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongMeta.m; sourceTree = "<group>"; };
+		D22DE02A1D1275F9004E2978 /* SongEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongEditController.h; sourceTree = "<group>"; };
+		D22DE02B1D1275F9004E2978 /* SongEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongEditController.m; sourceTree = "<group>"; };
+		D22DE03A1D127C07004E2978 /* kareokeapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kareokeapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		D22DE03B1D127C07004E2978 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		D22DE03D1D12920B004E2978 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D22DE03F1D12940A004E2978 /* kareokeapp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kareokeapp-Prefix.pch"; sourceTree = "<group>"; };
+		D22DE0521D129E01004E2978 /* kareokeapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kareokeapp.xcdatamodel; sourceTree = "<group>"; };
+		D22DE0571D129E74004E2978 /* Song+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Song+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D22DE0581D129E74004E2978 /* Song+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Song+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D22DE0591D129E74004E2978 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		D22DE05A1D129E74004E2978 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		D22DE05D1D12A900004E2978 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D2B502FF1D12CC700037939D /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		D2B503031D12CCA80037939D /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		D2B503041D12CCA80037939D /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22DDFD51D124C27004E2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22DE05E1D12A900004E2978 /* AVFoundation.framework in Frameworks */,
+				D22DE03E1D12920B004E2978 /* CoreData.framework in Frameworks */,
+				D5FB19A23D6028DE6F735A78 /* Pods_kareokeapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22DDFEE1D124C27004E2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F38CAAEC6CE66F09BDB1A1 /* Pods_kareokeappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22DDFF91D124C27004E2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1948D6CBD5ACA843A57506 /* Pods_kareokeappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BEA3A6A0A5DCAE51092EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08A2D379D160E09E8054B151 /* Pods-kareokeapp.debug.xcconfig */,
+				37315BC9A29F7581A94FDDDD /* Pods-kareokeapp.release.xcconfig */,
+				3B887A1EF881C4F2DB9C0F8A /* Pods-kareokeappTests.debug.xcconfig */,
+				61200CC75B51940F61BE93BB /* Pods-kareokeappTests.release.xcconfig */,
+				84874C3CDCA53FC571485D2A /* Pods-kareokeappUITests.debug.xcconfig */,
+				6547E3D92530CC49FFE174EE /* Pods-kareokeappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		127F34CF29B11B25EA5F934F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83FB8AC7073898E94B82FAAB /* Pods_kareokeapp.framework */,
+				C010AF3F3B099CD7E7FE7738 /* Pods_kareokeappTests.framework */,
+				7216E68A9F7C7CB934399F6F /* Pods_kareokeappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22DDFCF1D124C27004E2978 = {
+			isa = PBXGroup;
+			children = (
+				D22DE05D1D12A900004E2978 /* AVFoundation.framework */,
+				D22DE03D1D12920B004E2978 /* CoreData.framework */,
+				D22DDFDA1D124C27004E2978 /* kareokeapp */,
+				D22DDFF41D124C27004E2978 /* kareokeappTests */,
+				D22DDFFF1D124C27004E2978 /* kareokeappUITests */,
+				D22DDFD91D124C27004E2978 /* Products */,
+				09BEA3A6A0A5DCAE51092EBA /* Pods */,
+				127F34CF29B11B25EA5F934F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D22DDFD91D124C27004E2978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22DDFD81D124C27004E2978 /* kareokeapp.app */,
+				D22DDFF11D124C27004E2978 /* kareokeappTests.xctest */,
+				D22DDFFC1D124C27004E2978 /* kareokeappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22DDFDA1D124C27004E2978 /* kareokeapp */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE02D1D127603004E2978 /* song */,
+				D22DE02E1D127991004E2978 /* util */,
+				D2B503011D12CC7A0037939D /* assets */,
+				D22DE0511D129E01004E2978 /* kareokeapp.xcdatamodeld */,
+				D22DE01F1D125B88004E2978 /* storyboard */,
+				D22DE0121D125179004E2978 /* main */,
+				D22DE0111D125172004E2978 /* model */,
+				D22DDFDE1D124C27004E2978 /* AppDelegate.h */,
+				D22DDFDF1D124C27004E2978 /* AppDelegate.m */,
+				D22DDFE71D124C27004E2978 /* Assets.xcassets */,
+				D22DDFEC1D124C27004E2978 /* Info.plist */,
+				D22DDFDB1D124C27004E2978 /* Supporting Files */,
+			);
+			path = kareokeapp;
+			sourceTree = "<group>";
+		};
+		D22DDFDB1D124C27004E2978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE03F1D12940A004E2978 /* kareokeapp-Prefix.pch */,
+				D22DDFDC1D124C27004E2978 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D22DDFF41D124C27004E2978 /* kareokeappTests */ = {
+			isa = PBXGroup;
+			children = (
+				D22DDFF51D124C27004E2978 /* kareokeappTests.m */,
+				D22DDFF71D124C27004E2978 /* Info.plist */,
+			);
+			path = kareokeappTests;
+			sourceTree = "<group>";
+		};
+		D22DDFFF1D124C27004E2978 /* kareokeappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE0001D124C27004E2978 /* kareokeappUITests.m */,
+				D22DE0021D124C27004E2978 /* Info.plist */,
+			);
+			path = kareokeappUITests;
+			sourceTree = "<group>";
+		};
+		D22DE0111D125172004E2978 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE0261D12669A004E2978 /* meta */,
+				D22DE0571D129E74004E2978 /* Song+CoreDataProperties.h */,
+				D22DE0581D129E74004E2978 /* Song+CoreDataProperties.m */,
+				D22DE0591D129E74004E2978 /* Song.h */,
+				D22DE05A1D129E74004E2978 /* Song.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		D22DE0121D125179004E2978 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE0191D12569F004E2978 /* MainTableController.h */,
+				D22DE01A1D12569F004E2978 /* MainTableController.m */,
+				D22DE01C1D1259DA004E2978 /* SongMetaCell.h */,
+				D22DE01D1D1259DA004E2978 /* SongMetaCell.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		D22DE01F1D125B88004E2978 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D22DDFE41D124C27004E2978 /* Main.storyboard */,
+				D22DDFE91D124C27004E2978 /* LaunchScreen.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		D22DE0261D12669A004E2978 /* meta */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE0271D1266C5004E2978 /* SongMeta.h */,
+				D22DE0281D1266C5004E2978 /* SongMeta.m */,
+			);
+			name = meta;
+			sourceTree = "<group>";
+		};
+		D22DE02D1D127603004E2978 /* song */ = {
+			isa = PBXGroup;
+			children = (
+				D22DE0231D1264BC004E2978 /* SongDetailController.h */,
+				D22DE0241D1264BC004E2978 /* SongDetailController.m */,
+				D22DE02A1D1275F9004E2978 /* SongEditController.h */,
+				D22DE02B1D1275F9004E2978 /* SongEditController.m */,
+			);
+			name = song;
+			sourceTree = "<group>";
+		};
+		D22DE02E1D127991004E2978 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D2B503021D12CC890037939D /* validator */,
+				D22DE03B1D127C07004E2978 /* DatePickerDialog.swift */,
+				D22DE03A1D127C07004E2978 /* kareokeapp-Bridging-Header.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		D2B503011D12CC7A0037939D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D2B502FF1D12CC700037939D /* error@2x.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		D2B503021D12CC890037939D /* validator */ = {
+			isa = PBXGroup;
+			children = (
+				D2B503031D12CCA80037939D /* TextFieldValidator.h */,
+				D2B503041D12CCA80037939D /* TextFieldValidator.m */,
+			);
+			name = validator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22DDFD71D124C27004E2978 /* kareokeapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22DE0051D124C27004E2978 /* Build configuration list for PBXNativeTarget "kareokeapp" */;
+			buildPhases = (
+				299AC92A841ADC781FDA58CB /* [CP] Check Pods Manifest.lock */,
+				D22DDFD41D124C27004E2978 /* Sources */,
+				D22DDFD51D124C27004E2978 /* Frameworks */,
+				D22DDFD61D124C27004E2978 /* Resources */,
+				888A1F6DA8F5D614BF59CE11 /* [CP] Embed Pods Frameworks */,
+				F73853ACA03142A5B5F7EF95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kareokeapp;
+			productName = kareokeapp;
+			productReference = D22DDFD81D124C27004E2978 /* kareokeapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D22DDFF01D124C27004E2978 /* kareokeappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22DE0081D124C27004E2978 /* Build configuration list for PBXNativeTarget "kareokeappTests" */;
+			buildPhases = (
+				7C4A64E37C0F0D01BD2C1289 /* [CP] Check Pods Manifest.lock */,
+				D22DDFED1D124C27004E2978 /* Sources */,
+				D22DDFEE1D124C27004E2978 /* Frameworks */,
+				D22DDFEF1D124C27004E2978 /* Resources */,
+				300CDF14AA2AF5B6E02B2225 /* [CP] Embed Pods Frameworks */,
+				35AC2F58503B056733F51BA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22DDFF31D124C27004E2978 /* PBXTargetDependency */,
+			);
+			name = kareokeappTests;
+			productName = kareokeappTests;
+			productReference = D22DDFF11D124C27004E2978 /* kareokeappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D22DDFFB1D124C27004E2978 /* kareokeappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22DE00B1D124C27004E2978 /* Build configuration list for PBXNativeTarget "kareokeappUITests" */;
+			buildPhases = (
+				EB85703EF560961BA01E7026 /* [CP] Check Pods Manifest.lock */,
+				D22DDFF81D124C27004E2978 /* Sources */,
+				D22DDFF91D124C27004E2978 /* Frameworks */,
+				D22DDFFA1D124C27004E2978 /* Resources */,
+				D81A680761E10DB9FA8EED98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22DDFFE1D124C27004E2978 /* PBXTargetDependency */,
+			);
+			name = kareokeappUITests;
+			productName = kareokeappUITests;
+			productReference = D22DDFFC1D124C27004E2978 /* kareokeappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22DDFD01D124C27004E2978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bukalapak;
+				TargetAttributes = {
+					D22DDFD71D124C27004E2978 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D22DDFF01D124C27004E2978 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D22DDFD71D124C27004E2978;
+					};
+					D22DDFFB1D124C27004E2978 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D22DDFD71D124C27004E2978;
+					};
+				};
+			};
+			buildConfigurationList = D22DDFD31D124C27004E2978 /* Build configuration list for PBXProject "kareokeapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22DDFCF1D124C27004E2978;
+			productRefGroup = D22DDFD91D124C27004E2978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22DDFD71D124C27004E2978 /* kareokeapp */,
+				D22DDFF01D124C27004E2978 /* kareokeappTests */,
+				D22DDFFB1D124C27004E2978 /* kareokeappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22DDFD61D124C27004E2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22DDFEB1D124C27004E2978 /* LaunchScreen.storyboard in Resources */,
+				D22DDFE81D124C27004E2978 /* Assets.xcassets in Resources */,
+				D22DDFE61D124C27004E2978 /* Main.storyboard in Resources */,
+				D2B503001D12CC700037939D /* error@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22DDFEF1D124C27004E2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22DDFFA1D124C27004E2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		299AC92A841ADC781FDA58CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		300CDF14AA2AF5B6E02B2225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kareokeappTests/Pods-kareokeappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35AC2F58503B056733F51BA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kareokeappTests/Pods-kareokeappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4A64E37C0F0D01BD2C1289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		888A1F6DA8F5D614BF59CE11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kareokeapp/Pods-kareokeapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81A680761E10DB9FA8EED98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kareokeappUITests/Pods-kareokeappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB85703EF560961BA01E7026 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F73853ACA03142A5B5F7EF95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kareokeapp/Pods-kareokeapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22DDFD41D124C27004E2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22DE05B1D129E74004E2978 /* Song+CoreDataProperties.m in Sources */,
+				D22DE0531D129E01004E2978 /* kareokeapp.xcdatamodeld in Sources */,
+				D22DE02C1D1275F9004E2978 /* SongEditController.m in Sources */,
+				D22DE03C1D127C07004E2978 /* DatePickerDialog.swift in Sources */,
+				D22DE0251D1264BC004E2978 /* SongDetailController.m in Sources */,
+				D22DE05C1D129E74004E2978 /* Song.m in Sources */,
+				D22DE01B1D12569F004E2978 /* MainTableController.m in Sources */,
+				D22DE0291D1266C5004E2978 /* SongMeta.m in Sources */,
+				D22DDFE01D124C27004E2978 /* AppDelegate.m in Sources */,
+				D22DDFDD1D124C27004E2978 /* main.m in Sources */,
+				D2B503051D12CCA80037939D /* TextFieldValidator.m in Sources */,
+				D22DE01E1D1259DA004E2978 /* SongMetaCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22DDFED1D124C27004E2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22DDFF61D124C27004E2978 /* kareokeappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22DDFF81D124C27004E2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22DE0011D124C27004E2978 /* kareokeappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D22DDFF31D124C27004E2978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22DDFD71D124C27004E2978 /* kareokeapp */;
+			targetProxy = D22DDFF21D124C27004E2978 /* PBXContainerItemProxy */;
+		};
+		D22DDFFE1D124C27004E2978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22DDFD71D124C27004E2978 /* kareokeapp */;
+			targetProxy = D22DDFFD1D124C27004E2978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D22DDFE41D124C27004E2978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22DDFE51D124C27004E2978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D22DDFE91D124C27004E2978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22DDFEA1D124C27004E2978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22DE0031D124C27004E2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D22DE0041D124C27004E2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22DE0061D124C27004E2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A2D379D160E09E8054B151 /* Pods-kareokeapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kareokeapp/kareokeapp-Prefix.pch";
+				INFOPLIST_FILE = kareokeapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kareokeapp/kareokeapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D22DE0071D124C27004E2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37315BC9A29F7581A94FDDDD /* Pods-kareokeapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kareokeapp/kareokeapp-Prefix.pch";
+				INFOPLIST_FILE = kareokeapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kareokeapp/kareokeapp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D22DE0091D124C27004E2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B887A1EF881C4F2DB9C0F8A /* Pods-kareokeappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kareokeappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kareokeapp.app/kareokeapp";
+			};
+			name = Debug;
+		};
+		D22DE00A1D124C27004E2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61200CC75B51940F61BE93BB /* Pods-kareokeappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kareokeappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kareokeapp.app/kareokeapp";
+			};
+			name = Release;
+		};
+		D22DE00C1D124C27004E2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84874C3CDCA53FC571485D2A /* Pods-kareokeappUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = kareokeappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kareokeapp;
+			};
+			name = Debug;
+		};
+		D22DE00D1D124C27004E2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6547E3D92530CC49FFE174EE /* Pods-kareokeappUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = kareokeappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kareokeapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22DDFD31D124C27004E2978 /* Build configuration list for PBXProject "kareokeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22DE0031D124C27004E2978 /* Debug */,
+				D22DE0041D124C27004E2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22DE0051D124C27004E2978 /* Build configuration list for PBXNativeTarget "kareokeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22DE0061D124C27004E2978 /* Debug */,
+				D22DE0071D124C27004E2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22DE0081D124C27004E2978 /* Build configuration list for PBXNativeTarget "kareokeappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22DE0091D124C27004E2978 /* Debug */,
+				D22DE00A1D124C27004E2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22DE00B1D124C27004E2978 /* Build configuration list for PBXNativeTarget "kareokeappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22DE00C1D124C27004E2978 /* Debug */,
+				D22DE00D1D124C27004E2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D22DE0511D129E01004E2978 /* kareokeapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D22DE0521D129E01004E2978 /* kareokeapp.xcdatamodel */,
+			);
+			currentVersion = D22DE0521D129E01004E2978 /* kareokeapp.xcdatamodel */;
+			path = kareokeapp.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D22DDFD01D124C27004E2978 /* Project object */;
+}

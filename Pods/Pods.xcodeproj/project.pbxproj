@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B1715AAB00AD9296374207BB8D3F6F /* Pods-kareokeappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BCFA3E58E464ACBAD84060FF47AD /* Pods-kareokeappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482BB2F78E9517E3134146FFE4DEBF49 /* Pods-kareokeapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366A7FB8D80D15A25C526A2F504FF5D /* Pods-kareokeapp-dummy.m */; };
+		62B8EBF65C2DD8E5CCB23C00DBDBAFC9 /* Pods-kareokeappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70A76979803E014D5655E59D22CB3B /* Pods-kareokeappTests-dummy.m */; };
+		68844A8E91731A87682EB11C2749A62E /* Pods-kareokeapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B57D515D41D2E7E77E2B1F03BB16BA /* Pods-kareokeapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92ED41EC47395F15F67AFE859FAACD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9D89F5348DF114BBEA2B60E192656A3E /* Pods-kareokeappUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB357D929DDFE620B12A9849DF6F164A /* Pods-kareokeappUITests-dummy.m */; };
+		BE8915A791A6160C7B1456750358824C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C17E89AB35B354C43294A48211196041 /* Pods-kareokeappUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536BA00C2AC891A824AB6B13922B8825 /* Pods-kareokeappUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE5E5BE925182A190EA06A1969DE007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0366A7FB8D80D15A25C526A2F504FF5D /* Pods-kareokeapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kareokeapp-dummy.m"; sourceTree = "<group>"; };
+		09D410F583E5FA8E787748E6503738A3 /* Pods-kareokeappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kareokeappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1155BCFA3E58E464ACBAD84060FF47AD /* Pods-kareokeappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kareokeappTests-umbrella.h"; sourceTree = "<group>"; };
+		1788FA87162887FE0FB154E43FDDBFAB /* Pods-kareokeappTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kareokeappTests-resources.sh"; sourceTree = "<group>"; };
+		17E1BC4554A9F859B07B0D8ED69FCCDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B89E3005B34B31FAC247D932EA6699 /* Pods-kareokeappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kareokeappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1AD23B43EA8A6FD921F939268F191ACF /* Pods-kareokeappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-kareokeappTests.modulemap"; sourceTree = "<group>"; };
+		1E63D6E5A65F7B485083AEA8B5E5F018 /* Pods-kareokeappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kareokeappTests.release.xcconfig"; sourceTree = "<group>"; };
+		23B57D515D41D2E7E77E2B1F03BB16BA /* Pods-kareokeapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kareokeapp-umbrella.h"; sourceTree = "<group>"; };
+		2689A1B1ECDCBAE2CE6F796426B8CC98 /* Pods_kareokeappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kareokeappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292376D887A492BE98D8D3145EEE3599 /* Pods-kareokeappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kareokeappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D751C531E135E45B065EF1476DDFE03 /* Pods-kareokeappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kareokeappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35C22D92C82F07D8F862D9E90D7F1C98 /* Pods-kareokeappUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kareokeappUITests-resources.sh"; sourceTree = "<group>"; };
+		4A94F54C9A2B24BEC11EAC9CB8F2A83A /* Pods-kareokeapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-kareokeapp.modulemap"; sourceTree = "<group>"; };
+		536BA00C2AC891A824AB6B13922B8825 /* Pods-kareokeappUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kareokeappUITests-umbrella.h"; sourceTree = "<group>"; };
+		87A17F8A6E72DBBE72BB6925A61F7EB9 /* Pods-kareokeappUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kareokeappUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF7F5AB4BD632502275AEB4BBCB4D1A6 /* Pods-kareokeapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kareokeapp.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B3DCE348F37EB6E205A41B7ED052B5 /* Pods_kareokeapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kareokeapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AB4920C72C9C9951A417DCB18AC673 /* Pods-kareokeapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kareokeapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		C49EA0FD46CBD07866F386A9C8AAF160 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADB2138EB7BE7FC46EE07B4CAC1D71D /* Pods-kareokeappUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-kareokeappUITests.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8019DE228E632ADCC080FEAD63F07A2 /* Pods-kareokeapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kareokeapp-frameworks.sh"; sourceTree = "<group>"; };
+		DCB5870F4E38860FE7B5DD3724DE57E6 /* Pods-kareokeapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kareokeapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE70A76979803E014D5655E59D22CB3B /* Pods-kareokeappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kareokeappTests-dummy.m"; sourceTree = "<group>"; };
+		DE731CE2C8ADC4D81E7796FD8A0D823E /* Pods-kareokeapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kareokeapp-resources.sh"; sourceTree = "<group>"; };
+		E1F974239112AFA0656B677C453D1753 /* Pods_kareokeappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kareokeappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C1F0EE014E46565146244CADFB278A /* Pods-kareokeappUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kareokeappUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E79D3E00DF25DEA7868D95FFD068DB2A /* Pods-kareokeappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kareokeappTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB357D929DDFE620B12A9849DF6F164A /* Pods-kareokeappUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kareokeappUITests-dummy.m"; sourceTree = "<group>"; };
+		EEC1669C9D52002CF0E5910A864268C3 /* Pods-kareokeappTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kareokeappTests-frameworks.sh"; sourceTree = "<group>"; };
+		F1B9143EE52C6FB36E7F1BF92C45E2B7 /* Pods-kareokeappUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kareokeappUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F7B127341C39B1322E4D9E459BE22272 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA796563A6EB569980B01AB41F550CCA /* Pods-kareokeapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kareokeapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D58D06C48D2F3577A9EBCF579565A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92ED41EC47395F15F67AFE859FAACD09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4973AE5E9C3B120B326EE3CF99A112A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE5E5BE925182A190EA06A1969DE007 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32061E0F91E60614F6C9DFD1F740F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8915A791A6160C7B1456750358824C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56433BEC7733BF81AC9CFC5B5F2F48B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D111AE5AB4942E39ABD1DAFC88ED6C1 /* Pods-kareokeapp */,
+				BA3A437139CBA1A259CDAD1966E070E6 /* Pods-kareokeappTests */,
+				F7DCA4DD3F184A05357AAD695E48FA87 /* Pods-kareokeappUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BD43B40B8860690022B2CD7328BC698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B3DCE348F37EB6E205A41B7ED052B5 /* Pods_kareokeapp.framework */,
+				2689A1B1ECDCBAE2CE6F796426B8CC98 /* Pods_kareokeappTests.framework */,
+				E1F974239112AFA0656B677C453D1753 /* Pods_kareokeappUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D111AE5AB4942E39ABD1DAFC88ED6C1 /* Pods-kareokeapp */ = {
+			isa = PBXGroup;
+			children = (
+				C49EA0FD46CBD07866F386A9C8AAF160 /* Info.plist */,
+				4A94F54C9A2B24BEC11EAC9CB8F2A83A /* Pods-kareokeapp.modulemap */,
+				DCB5870F4E38860FE7B5DD3724DE57E6 /* Pods-kareokeapp-acknowledgements.markdown */,
+				C3AB4920C72C9C9951A417DCB18AC673 /* Pods-kareokeapp-acknowledgements.plist */,
+				0366A7FB8D80D15A25C526A2F504FF5D /* Pods-kareokeapp-dummy.m */,
+				D8019DE228E632ADCC080FEAD63F07A2 /* Pods-kareokeapp-frameworks.sh */,
+				DE731CE2C8ADC4D81E7796FD8A0D823E /* Pods-kareokeapp-resources.sh */,
+				23B57D515D41D2E7E77E2B1F03BB16BA /* Pods-kareokeapp-umbrella.h */,
+				AF7F5AB4BD632502275AEB4BBCB4D1A6 /* Pods-kareokeapp.debug.xcconfig */,
+				FA796563A6EB569980B01AB41F550CCA /* Pods-kareokeapp.release.xcconfig */,
+			);
+			name = "Pods-kareokeapp";
+			path = "Target Support Files/Pods-kareokeapp";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6BD43B40B8860690022B2CD7328BC698 /* Products */,
+				56433BEC7733BF81AC9CFC5B5F2F48B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3A437139CBA1A259CDAD1966E070E6 /* Pods-kareokeappTests */ = {
+			isa = PBXGroup;
+			children = (
+				17E1BC4554A9F859B07B0D8ED69FCCDA /* Info.plist */,
+				1AD23B43EA8A6FD921F939268F191ACF /* Pods-kareokeappTests.modulemap */,
+				292376D887A492BE98D8D3145EEE3599 /* Pods-kareokeappTests-acknowledgements.markdown */,
+				E79D3E00DF25DEA7868D95FFD068DB2A /* Pods-kareokeappTests-acknowledgements.plist */,
+				DE70A76979803E014D5655E59D22CB3B /* Pods-kareokeappTests-dummy.m */,
+				EEC1669C9D52002CF0E5910A864268C3 /* Pods-kareokeappTests-frameworks.sh */,
+				1788FA87162887FE0FB154E43FDDBFAB /* Pods-kareokeappTests-resources.sh */,
+				1155BCFA3E58E464ACBAD84060FF47AD /* Pods-kareokeappTests-umbrella.h */,
+				09D410F583E5FA8E787748E6503738A3 /* Pods-kareokeappTests.debug.xcconfig */,
+				1E63D6E5A65F7B485083AEA8B5E5F018 /* Pods-kareokeappTests.release.xcconfig */,
+			);
+			name = "Pods-kareokeappTests";
+			path = "Target Support Files/Pods-kareokeappTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7DCA4DD3F184A05357AAD695E48FA87 /* Pods-kareokeappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B127341C39B1322E4D9E459BE22272 /* Info.plist */,
+				CADB2138EB7BE7FC46EE07B4CAC1D71D /* Pods-kareokeappUITests.modulemap */,
+				87A17F8A6E72DBBE72BB6925A61F7EB9 /* Pods-kareokeappUITests-acknowledgements.markdown */,
+				E5C1F0EE014E46565146244CADFB278A /* Pods-kareokeappUITests-acknowledgements.plist */,
+				EB357D929DDFE620B12A9849DF6F164A /* Pods-kareokeappUITests-dummy.m */,
+				F1B9143EE52C6FB36E7F1BF92C45E2B7 /* Pods-kareokeappUITests-frameworks.sh */,
+				35C22D92C82F07D8F862D9E90D7F1C98 /* Pods-kareokeappUITests-resources.sh */,
+				536BA00C2AC891A824AB6B13922B8825 /* Pods-kareokeappUITests-umbrella.h */,
+				2D751C531E135E45B065EF1476DDFE03 /* Pods-kareokeappUITests.debug.xcconfig */,
+				19B89E3005B34B31FAC247D932EA6699 /* Pods-kareokeappUITests.release.xcconfig */,
+			);
+			name = "Pods-kareokeappUITests";
+			path = "Target Support Files/Pods-kareokeappUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4215B838A20D2D43CA3DB36D353CFCB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17E89AB35B354C43294A48211196041 /* Pods-kareokeappUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE21472F3413F731EAEB8AF1876411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68844A8E91731A87682EB11C2749A62E /* Pods-kareokeapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CEA1F326C06E0D43BFFD21AAFB7991 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B1715AAB00AD9296374207BB8D3F6F /* Pods-kareokeappTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3817206F3DBB2F66AA1ADE4A2D4DC0F2 /* Pods-kareokeappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3110F4D5865CD4A4EAAFF444EAF928B4 /* Build configuration list for PBXNativeTarget "Pods-kareokeappTests" */;
+			buildPhases = (
+				98669B2469AC819D96183E6B14C210D5 /* Sources */,
+				4973AE5E9C3B120B326EE3CF99A112A0 /* Frameworks */,
+				65CEA1F326C06E0D43BFFD21AAFB7991 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kareokeappTests";
+			productName = "Pods-kareokeappTests";
+			productReference = 2689A1B1ECDCBAE2CE6F796426B8CC98 /* Pods_kareokeappTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87BAAED41C8E862AC2A6EE4F92D7D21C /* Pods-kareokeappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD7389EE98B30ADB9C6817E1376B141 /* Build configuration list for PBXNativeTarget "Pods-kareokeappUITests" */;
+			buildPhases = (
+				89654CFF5498EB4C16084A94C5733CCC /* Sources */,
+				01D58D06C48D2F3577A9EBCF579565A5 /* Frameworks */,
+				4215B838A20D2D43CA3DB36D353CFCB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kareokeappUITests";
+			productName = "Pods-kareokeappUITests";
+			productReference = E1F974239112AFA0656B677C453D1753 /* Pods_kareokeappUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D77AC901AE19D92D33B04C2BF86EEBE2 /* Pods-kareokeapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAD4754B1399ACD9D9D5C758EC241EC /* Build configuration list for PBXNativeTarget "Pods-kareokeapp" */;
+			buildPhases = (
+				855DDD57A9A556CCDA8E518F021553EE /* Sources */,
+				EB32061E0F91E60614F6C9DFD1F740F8 /* Frameworks */,
+				5EFE21472F3413F731EAEB8AF1876411 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kareokeapp";
+			productName = "Pods-kareokeapp";
+			productReference = B6B3DCE348F37EB6E205A41B7ED052B5 /* Pods_kareokeapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6BD43B40B8860690022B2CD7328BC698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77AC901AE19D92D33B04C2BF86EEBE2 /* Pods-kareokeapp */,
+				3817206F3DBB2F66AA1ADE4A2D4DC0F2 /* Pods-kareokeappTests */,
+				87BAAED41C8E862AC2A6EE4F92D7D21C /* Pods-kareokeappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855DDD57A9A556CCDA8E518F021553EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482BB2F78E9517E3134146FFE4DEBF49 /* Pods-kareokeapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89654CFF5498EB4C16084A94C5733CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D89F5348DF114BBEA2B60E192656A3E /* Pods-kareokeappUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98669B2469AC819D96183E6B14C210D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B8EBF65C2DD8E5CCB23C00DBDBAFC9 /* Pods-kareokeappTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39FFA82D963F1A596FA1EA6162DC3548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D751C531E135E45B065EF1476DDFE03 /* Pods-kareokeappUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kareokeappUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kareokeappUITests/Pods-kareokeappUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_kareokeappUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C6AAB8C86F16D2995B26526E78A8C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA796563A6EB569980B01AB41F550CCA /* Pods-kareokeapp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kareokeapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kareokeapp/Pods-kareokeapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_kareokeapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72D42CA387EF97654FB8F64A3ADAD217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7F5AB4BD632502275AEB4BBCB4D1A6 /* Pods-kareokeapp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kareokeapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kareokeapp/Pods-kareokeapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_kareokeapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A590F99E45066DAD13E03E74F75FC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E63D6E5A65F7B485083AEA8B5E5F018 /* Pods-kareokeappTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kareokeappTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kareokeappTests/Pods-kareokeappTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_kareokeappTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94A701E15B5C6810EBA62A132A6A674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B89E3005B34B31FAC247D932EA6699 /* Pods-kareokeappUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kareokeappUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kareokeappUITests/Pods-kareokeappUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_kareokeappUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7BBD9F54FAB4DC4926230A979EB8E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D410F583E5FA8E787748E6503738A3 /* Pods-kareokeappTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kareokeappTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kareokeappTests/Pods-kareokeappTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_kareokeappTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3110F4D5865CD4A4EAAFF444EAF928B4 /* Build configuration list for PBXNativeTarget "Pods-kareokeappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BBD9F54FAB4DC4926230A979EB8E50 /* Debug */,
+				7A590F99E45066DAD13E03E74F75FC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAD4754B1399ACD9D9D5C758EC241EC /* Build configuration list for PBXNativeTarget "Pods-kareokeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D42CA387EF97654FB8F64A3ADAD217 /* Debug */,
+				3C6AAB8C86F16D2995B26526E78A8C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD7389EE98B30ADB9C6817E1376B141 /* Build configuration list for PBXNativeTarget "Pods-kareokeappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FFA82D963F1A596FA1EA6162DC3548 /* Debug */,
+				94A701E15B5C6810EBA62A132A6A674B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_kareokeapp {
+  umbrella header "Pods-kareokeapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
