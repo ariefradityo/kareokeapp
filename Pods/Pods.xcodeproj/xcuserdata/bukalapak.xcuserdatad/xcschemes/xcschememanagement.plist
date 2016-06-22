@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-kareokeapp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D77AC901AE19D92D33B04C2BF86EEBE2</key>
+		<key>C3088D509DCC08B3E07004508CF0BCC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4762AB2ED4B266140E368F168BE149D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D58D76EC529B4A92F3E5EDADE0A96661</key>
 		<dict>
 			<key>primary</key>
 			<true/>

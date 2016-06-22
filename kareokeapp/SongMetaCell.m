@@ -21,13 +21,13 @@
     // Configure the view for the selected state
 }
 
-- (void) configureForSongMeta:(SongMeta *)songMeta;{
-    self.mLabelSongTitle.text = songMeta.title;
+- (void) configureForSong:(Song *)song;{
+    self.mLabelSongTitle.text = song.title;
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
     [formatter setDateFormat:@"dd/MM/yyyy"];
     
-    self.mLabelDateCreated.text = [formatter stringFromDate:songMeta.dateCreated];
+    self.mLabelDateCreated.text = [formatter stringFromDate:song.date_created];
 }
 
 @end

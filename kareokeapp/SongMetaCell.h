@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SongMeta.h"
+#import "Song.h"
 
 @interface SongMetaCell : UITableViewCell
 
@@ -16,6 +16,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *mLabelDateCreated;
 
 
--(void)configureForSongMeta:(SongMeta *)songMeta;
+-(void)configureForSong:(Song *)song;
 
 @end

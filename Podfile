@@ -4,6 +4,9 @@
 target 'kareokeapp' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   use_frameworks!
+  
+  pod "MagicalRecord"
+  pod "IQKeyboardManager"
 
   # Pods for kareokeapp
 

@@ -6,40 +6,47 @@
 //  Copyright © 2016 Bukalapak. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import <UIKit/UIKit.h>
-#import "Song.h"
 #import "TextFieldValidator.h"
+#import "Song.h"
 
-@interface SongEditController : UIViewController{
-    
-    NSDate *dateSelected;
-    NSDateFormatter *dateFormatter;
-    
-    BOOL isEdit;
-    
-    Song *song;
+@interface SongEditController : UIViewController <UITextViewDelegate, AVAudioRecorderDelegate, AVAudioPlayerDelegate, UITextFieldDelegate>{
+
 }
 
 @property (weak, nonatomic) IBOutlet UIScrollView *mSVscrollView;
 
 @property (weak, nonatomic) IBOutlet TextFieldValidator *mTFsongTitle;
 
+@property (weak, nonatomic) IBOutlet UILabel *mLabelTimer;
+
 @property (weak, nonatomic) IBOutlet UITextField *mTFdate;
 
 @property (weak, nonatomic) IBOutlet UIButton *mButtonRecord;
 
+@property (weak, nonatomic) IBOutlet UIButton *mButtonPlay;
+
 @property (weak, nonatomic) IBOutlet UITextView *mTVlyric;
 
-@property int songId;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *mTVlyricHeightConstraint;
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *mTVlyricBotMarginConst;
 
 
-- (IBAction)onDateBeginEdit:(id)sender;
+@property (strong, nonatomic) Song *song;
 
-- (IBAction)onDateChangeEdit:(id)sender;
+@property BOOL isEdit;
+
 
 - (IBAction)onRecordClicked:(id)sender;
 
+- (IBAction)onPlayClicked:(id)sender;
+
 - (IBAction)onSaveClicked:(id)sender;
+
+- (void)dateEdit;
+
 
 
 @end

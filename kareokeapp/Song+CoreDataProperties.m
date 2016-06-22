@@ -2,7 +2,7 @@
 //  Song+CoreDataProperties.m
 //  kareokeapp
 //
-//  Created by Bukalapak on 6/16/16.
+//  Created by Bukalapak on 6/21/16.
 //  Copyright © 2016 Bukalapak. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,9 +13,10 @@
 
 @implementation Song (CoreDataProperties)
 
-@dynamic iid;
-@dynamic title;
 @dynamic date_created;
+@dynamic iid;
 @dynamic lyric;
+@dynamic title;
+@dynamic time_duration;
 
 @end

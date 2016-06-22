@@ -2,7 +2,7 @@
 //  Song+CoreDataProperties.h
 //  kareokeapp
 //
-//  Created by Bukalapak on 6/16/16.
+//  Created by Bukalapak on 6/21/16.
 //  Copyright © 2016 Bukalapak. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -15,10 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Song (CoreDataProperties)
 
-@property (nullable, nonatomic, retain) NSNumber *iid;
-@property (nullable, nonatomic, retain) NSString *title;
 @property (nullable, nonatomic, retain) NSDate *date_created;
+@property (nullable, nonatomic, retain) NSString *iid;
 @property (nullable, nonatomic, retain) NSString *lyric;
+@property (nullable, nonatomic, retain) NSString *title;
+@property (nullable, nonatomic, retain) NSNumber *time_duration;
 
 @end
 

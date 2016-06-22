@@ -8,13 +8,29 @@
 
 #import <UIKit/UIKit.h>
 #import "Song.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface SongDetailController : UIViewController{
-    
-    Song *song;
-}
+static NSString * const ID_SEGUE_EDIT_SONG = @"idSegueEditSong";
 
-@property int songId;
+@interface SongDetailController : UIViewController <AVAudioPlayerDelegate>
 
+@property (strong, nonatomic) Song *song;
+
+@property (weak, nonatomic) IBOutlet UILabel *mLabelSongTitle;
+
+@property (weak, nonatomic) IBOutlet UILabel *mLabelDateCreated;
+
+@property (weak, nonatomic) IBOutlet UILabel *mLabelTimer;
+
+@property (weak, nonatomic) IBOutlet UIButton *mButtonPlay;
+
+@property (weak, nonatomic) IBOutlet UITextView *mTVlyrics;
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *mTVlyricsHeightConstraint;
+
+
+@property (weak, nonatomic) IBOutlet UIScrollView *mSVscrollView;
+
+- (IBAction)onPlayClicked:(id)sender;
 
 @end

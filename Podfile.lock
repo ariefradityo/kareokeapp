@@ -1,3 +1,17 @@
-PODFILE CHECKSUM: 40b3c5004a7334d2787bff2b1d557b2ef55c7dff
+PODS:
+  - IQKeyboardManager (4.0.3)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - MagicalRecord
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: be9695ffc5a52077deb4847608f338771022d6d1
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+
+PODFILE CHECKSUM: 4b8bec7915e17ded8315d937701f8c06f3042936
 
 COCOAPODS: 1.0.1

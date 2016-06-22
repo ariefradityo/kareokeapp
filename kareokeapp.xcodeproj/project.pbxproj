@@ -19,7 +19,6 @@
 		D22DE01B1D12569F004E2978 /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE01A1D12569F004E2978 /* MainTableController.m */; };
 		D22DE01E1D1259DA004E2978 /* SongMetaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE01D1D1259DA004E2978 /* SongMetaCell.m */; };
 		D22DE0251D1264BC004E2978 /* SongDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0241D1264BC004E2978 /* SongDetailController.m */; };
-		D22DE0291D1266C5004E2978 /* SongMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE0281D1266C5004E2978 /* SongMeta.m */; };
 		D22DE02C1D1275F9004E2978 /* SongEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22DE02B1D1275F9004E2978 /* SongEditController.m */; };
 		D22DE03C1D127C07004E2978 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22DE03B1D127C07004E2978 /* DatePickerDialog.swift */; };
 		D22DE03E1D12920B004E2978 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22DE03D1D12920B004E2978 /* CoreData.framework */; };
@@ -29,6 +28,18 @@
 		D22DE05E1D12A900004E2978 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22DE05D1D12A900004E2978 /* AVFoundation.framework */; };
 		D2B503001D12CC700037939D /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B502FF1D12CC700037939D /* error@2x.png */; };
 		D2B503051D12CCA80037939D /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B503041D12CCA80037939D /* TextFieldValidator.m */; };
+		D2D0DA081D13A36A002D1239 /* ic_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA051D13A36A002D1239 /* ic_stop.png */; };
+		D2D0DA091D13A36A002D1239 /* ic_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA061D13A36A002D1239 /* ic_stop@2x.png */; };
+		D2D0DA0A1D13A36A002D1239 /* ic_stop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA071D13A36A002D1239 /* ic_stop@3x.png */; };
+		D2D0DA0E1D13A386002D1239 /* ic_play.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA0B1D13A386002D1239 /* ic_play.png */; };
+		D2D0DA0F1D13A386002D1239 /* ic_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA0C1D13A386002D1239 /* ic_play@2x.png */; };
+		D2D0DA101D13A386002D1239 /* ic_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA0D1D13A386002D1239 /* ic_play@3x.png */; };
+		D2D0DA141D13A391002D1239 /* ic_record.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA111D13A391002D1239 /* ic_record.png */; };
+		D2D0DA151D13A391002D1239 /* ic_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA121D13A391002D1239 /* ic_record@2x.png */; };
+		D2D0DA161D13A391002D1239 /* ic_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA131D13A391002D1239 /* ic_record@3x.png */; };
+		D2D0DA1A1D13A737002D1239 /* ic_play_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA171D13A737002D1239 /* ic_play_inactive.png */; };
+		D2D0DA1B1D13A737002D1239 /* ic_play_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA181D13A737002D1239 /* ic_play_inactive@2x.png */; };
+		D2D0DA1C1D13A737002D1239 /* ic_play_inactive@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D0DA191D13A737002D1239 /* ic_play_inactive@3x.png */; };
 		D5FB19A23D6028DE6F735A78 /* Pods_kareokeapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FB8AC7073898E94B82FAAB /* Pods_kareokeapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,8 +90,6 @@
 		D22DE01D1D1259DA004E2978 /* SongMetaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongMetaCell.m; sourceTree = "<group>"; };
 		D22DE0231D1264BC004E2978 /* SongDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailController.h; sourceTree = "<group>"; };
 		D22DE0241D1264BC004E2978 /* SongDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailController.m; sourceTree = "<group>"; };
-		D22DE0271D1266C5004E2978 /* SongMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongMeta.h; sourceTree = "<group>"; };
-		D22DE0281D1266C5004E2978 /* SongMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongMeta.m; sourceTree = "<group>"; };
 		D22DE02A1D1275F9004E2978 /* SongEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongEditController.h; sourceTree = "<group>"; };
 		D22DE02B1D1275F9004E2978 /* SongEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongEditController.m; sourceTree = "<group>"; };
 		D22DE03A1D127C07004E2978 /* kareokeapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kareokeapp-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -96,6 +105,18 @@
 		D2B502FF1D12CC700037939D /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		D2B503031D12CCA80037939D /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
 		D2B503041D12CCA80037939D /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		D2D0DA051D13A36A002D1239 /* ic_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stop.png; sourceTree = "<group>"; };
+		D2D0DA061D13A36A002D1239 /* ic_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_stop@2x.png"; sourceTree = "<group>"; };
+		D2D0DA071D13A36A002D1239 /* ic_stop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_stop@3x.png"; sourceTree = "<group>"; };
+		D2D0DA0B1D13A386002D1239 /* ic_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play.png; sourceTree = "<group>"; };
+		D2D0DA0C1D13A386002D1239 /* ic_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play@2x.png"; sourceTree = "<group>"; };
+		D2D0DA0D1D13A386002D1239 /* ic_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play@3x.png"; sourceTree = "<group>"; };
+		D2D0DA111D13A391002D1239 /* ic_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_record.png; sourceTree = "<group>"; };
+		D2D0DA121D13A391002D1239 /* ic_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record@2x.png"; sourceTree = "<group>"; };
+		D2D0DA131D13A391002D1239 /* ic_record@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record@3x.png"; sourceTree = "<group>"; };
+		D2D0DA171D13A737002D1239 /* ic_play_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_inactive.png; sourceTree = "<group>"; };
+		D2D0DA181D13A737002D1239 /* ic_play_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play_inactive@2x.png"; sourceTree = "<group>"; };
+		D2D0DA191D13A737002D1239 /* ic_play_inactive@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play_inactive@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,12 +199,12 @@
 		D22DDFDA1D124C27004E2978 /* kareokeapp */ = {
 			isa = PBXGroup;
 			children = (
+				D22DE0511D129E01004E2978 /* kareokeapp.xcdatamodeld */,
+				D22DE0121D125179004E2978 /* main */,
 				D22DE02D1D127603004E2978 /* song */,
 				D22DE02E1D127991004E2978 /* util */,
 				D2B503011D12CC7A0037939D /* assets */,
-				D22DE0511D129E01004E2978 /* kareokeapp.xcdatamodeld */,
 				D22DE01F1D125B88004E2978 /* storyboard */,
-				D22DE0121D125179004E2978 /* main */,
 				D22DE0111D125172004E2978 /* model */,
 				D22DDFDE1D124C27004E2978 /* AppDelegate.h */,
 				D22DDFDF1D124C27004E2978 /* AppDelegate.m */,
@@ -224,7 +245,6 @@
 		D22DE0111D125172004E2978 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				D22DE0261D12669A004E2978 /* meta */,
 				D22DE0571D129E74004E2978 /* Song+CoreDataProperties.h */,
 				D22DE0581D129E74004E2978 /* Song+CoreDataProperties.m */,
 				D22DE0591D129E74004E2978 /* Song.h */,
@@ -253,15 +273,6 @@
 			name = storyboard;
 			sourceTree = "<group>";
 		};
-		D22DE0261D12669A004E2978 /* meta */ = {
-			isa = PBXGroup;
-			children = (
-				D22DE0271D1266C5004E2978 /* SongMeta.h */,
-				D22DE0281D1266C5004E2978 /* SongMeta.m */,
-			);
-			name = meta;
-			sourceTree = "<group>";
-		};
 		D22DE02D1D127603004E2978 /* song */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +297,18 @@
 		D2B503011D12CC7A0037939D /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				D2D0DA171D13A737002D1239 /* ic_play_inactive.png */,
+				D2D0DA181D13A737002D1239 /* ic_play_inactive@2x.png */,
+				D2D0DA191D13A737002D1239 /* ic_play_inactive@3x.png */,
+				D2D0DA111D13A391002D1239 /* ic_record.png */,
+				D2D0DA121D13A391002D1239 /* ic_record@2x.png */,
+				D2D0DA131D13A391002D1239 /* ic_record@3x.png */,
+				D2D0DA0B1D13A386002D1239 /* ic_play.png */,
+				D2D0DA0C1D13A386002D1239 /* ic_play@2x.png */,
+				D2D0DA0D1D13A386002D1239 /* ic_play@3x.png */,
+				D2D0DA051D13A36A002D1239 /* ic_stop.png */,
+				D2D0DA061D13A36A002D1239 /* ic_stop@2x.png */,
+				D2D0DA071D13A36A002D1239 /* ic_stop@3x.png */,
 				D2B502FF1D12CC700037939D /* error@2x.png */,
 			);
 			name = assets;
@@ -375,6 +398,7 @@
 				TargetAttributes = {
 					D22DDFD71D124C27004E2978 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6VWW3DSSHH;
 					};
 					D22DDFF01D124C27004E2978 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -411,10 +435,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D0DA0A1D13A36A002D1239 /* ic_stop@3x.png in Resources */,
 				D22DDFEB1D124C27004E2978 /* LaunchScreen.storyboard in Resources */,
 				D22DDFE81D124C27004E2978 /* Assets.xcassets in Resources */,
 				D22DDFE61D124C27004E2978 /* Main.storyboard in Resources */,
+				D2D0DA0F1D13A386002D1239 /* ic_play@2x.png in Resources */,
+				D2D0DA101D13A386002D1239 /* ic_play@3x.png in Resources */,
+				D2D0DA081D13A36A002D1239 /* ic_stop.png in Resources */,
+				D2D0DA091D13A36A002D1239 /* ic_stop@2x.png in Resources */,
+				D2D0DA1C1D13A737002D1239 /* ic_play_inactive@3x.png in Resources */,
 				D2B503001D12CC700037939D /* error@2x.png in Resources */,
+				D2D0DA0E1D13A386002D1239 /* ic_play.png in Resources */,
+				D2D0DA1A1D13A737002D1239 /* ic_play_inactive.png in Resources */,
+				D2D0DA161D13A391002D1239 /* ic_record@3x.png in Resources */,
+				D2D0DA141D13A391002D1239 /* ic_record.png in Resources */,
+				D2D0DA151D13A391002D1239 /* ic_record@2x.png in Resources */,
+				D2D0DA1B1D13A737002D1239 /* ic_play_inactive@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +605,6 @@
 				D22DE0251D1264BC004E2978 /* SongDetailController.m in Sources */,
 				D22DE05C1D129E74004E2978 /* Song.m in Sources */,
 				D22DE01B1D12569F004E2978 /* MainTableController.m in Sources */,
-				D22DE0291D1266C5004E2978 /* SongMeta.m in Sources */,
 				D22DDFE01D124C27004E2978 /* AppDelegate.m in Sources */,
 				D22DDFDD1D124C27004E2978 /* main.m in Sources */,
 				D2B503051D12CCA80037939D /* TextFieldValidator.m in Sources */,
@@ -716,6 +751,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -724,8 +761,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "kareokeapp/kareokeapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -735,6 +774,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -743,7 +784,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arief.kareokeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "kareokeapp/kareokeapp-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

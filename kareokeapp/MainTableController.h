@@ -7,19 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SongMeta.h"
+#import "Song.h"
 
-static const NSString *ID_CELL_SONG = @"idCellSong";
-static const NSString *ID_SEGUE_SONG_DETAIL = @"idSegueSongDetail";
+static NSString * const ID_CELL_SONG = @"idCellSong";
+static NSString * const ID_SEGUE_SONG_DETAIL = @"idSegueSongDetail";
+static NSString * const ID_SEGUE_ADD_SONG = @"idSegueAddSong";
 
-@interface MainTableController : UITableViewController{
+@interface MainTableController : UITableViewController  <NSFetchedResultsControllerDelegate>{
     
-    NSMutableArray<SongMeta *> *songList;
-    __weak IBOutlet UIBarButtonItem *mButtonAddSong;
+    NSMutableArray<Song *> *songList;
 
 }
 
-- (IBAction)addButtonClicked:(id)sender;
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 
+
+- (IBAction)onSortClicked:(id)sender;
 
 @end
